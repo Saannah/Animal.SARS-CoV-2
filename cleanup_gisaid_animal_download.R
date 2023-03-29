@@ -65,3 +65,4 @@ write.fasta(names = as.list(msa$seq.name), sequences = as.list(msa$seq.text), fi
 write.table(metadata, file = "animal_metadata_gisaid_04032022.tsv", row.names = FALSE, sep = "\t")
 
 
+
